@@ -1,0 +1,728 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Phở",
+      "description": "A Vietnamese soup consisting of broth, rice noodles, herbs, and either beef or chicken. A popular breakfast dish in Vietnam, served with various toppings and sauces.",
+      "category": "Soup"
+    },
+    {
+      "id": 2,
+      "name": "Bánh mì",
+      "description": "A Vietnamese sandwich typically made with a baguette, pâté, various meats, pickled vegetables, cilantro, and mayonnaise.",
+      "category": "Sandwich"
+    },
+    {
+      "id": 3,
+      "name": "Bún chả",
+      "description": "A dish originating in Hanoi, featuring grilled pork, rice noodles, and fresh herbs, served with a dipping sauce made from fish sauce, sugar, and lime.",
+      "category": "Noodle"
+    },
+    {
+      "id": 4,
+      "name": "Cơm tấm",
+      "description": "Broken rice served with grilled pork, pickled vegetables, a fried egg, and a dipping sauce made from fish sauce, sugar, and lime.",
+      "category": "Rice"
+    },
+    {
+      "id": 5,
+      "name": "Bánh xèo",
+      "description": "A crispy Vietnamese pancake made from rice flour, turmeric, and coconut milk, filled with pork, shrimp, bean sprouts, and herbs, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 6,
+      "name": "Gỏi cuốn",
+      "description": "Vietnamese spring rolls made from rice paper, filled with shrimp, pork, rice noodles, and fresh herbs, served with a peanut dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 7,
+      "name": "Cá kho tộ",
+      "description": "A clay pot dish featuring fish braised in a caramelized sauce with garlic, shallots, and fish sauce, typically served with steamed rice.",
+      "category": "Main"
+    },
+    {
+      "id": 8,
+      "name": "Chả giò",
+      "description": "Crispy Vietnamese egg rolls filled with ground pork, shrimp, glass noodles, and vegetables, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 9,
+      "name": "Bún bò Huế",
+      "description": "A spicy beef noodle soup from the city of Huế, featuring lemongrass, annatto seeds, and thick rice noodles, garnished with herbs and vegetables.",
+      "category": "Soup"
+    },
+    {
+      "id": 10,
+      "name": "Bánh cuốn",
+      "description": "Steamed rice rolls filled with ground pork, mushrooms, and shallots, topped with fried shallots and fresh herbs, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+
+    {
+      "id": 11,
+      "name": "Mì Quảng",
+      "description": "A noodle dish from Quảng Nam Province, featuring rice noodles, shrimp, pork, quail eggs, and various herbs, topped with crushed peanuts and rice crackers, served with a flavorful broth.",
+      "category": "Noodle"
+    },
+    {
+      "id": 12,
+      "name": "Bánh khọt",
+      "description": "Small, crispy rice flour pancakes topped with shrimp, green onions, and coconut milk, served with a dipping sauce and fresh herbs.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 13,
+      "name": "Cánh gà chiên nước mắm",
+      "description": "Chicken wings marinated in a mixture of fish sauce, sugar, and spices, then deep-fried until crispy and golden, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 14,
+      "name": "Bò lúc lắc",
+      "description": "A Vietnamese stir-fry dish made with cubed beef, onions, peppers, and tomatoes, served over a bed of greens and often accompanied by steamed rice.",
+      "category": "Main"
+    },
+    {
+      "id": 15,
+      "name": "Cơm gà Hội An",
+      "description": "A Hoi An specialty featuring shredded chicken and rice cooked in chicken broth and turmeric, served with pickled vegetables, fresh herbs, and a dipping sauce.",
+      "category": "Rice"
+    },
+    {
+      "id": 16,
+      "name": "Bánh canh",
+      "description": "A Vietnamese soup made with thick tapioca noodles and a choice of toppings, such as crab, shrimp, or pork, served in a rich, flavorful broth.",
+      "category": "Soup"
+    },
+    {
+      "id": 17,
+      "name": "Bún riêu",
+      "description": "A rice noodle soup featuring crab meat, tomatoes, and tofu, served in a tamarind-infused broth, garnished with fresh herbs and vegetables.",
+      "category": "Soup"
+    },
+    {
+      "id": 18,
+      "name": "Bánh bột chiên",
+      "description": "A Vietnamese street food made from fried rice flour cakes, eggs, and vegetables, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 19,
+      "name": "Bánh mì chảo",
+      "description": "A Vietnamese breakfast dish consisting of a small baguette served with an assortment of meats, pâté, fried eggs, and pickled vegetables.",
+      "category": "Breakfast"
+    },
+    {
+      "id": 20,
+      "name": "Xôi",
+      "description": "A sticky rice dish often served with various toppings such as mung beans, coconut, sesame seeds, or meat, typically enjoyed for breakfast or as a snack.",
+      "category": "Rice"
+    },
+
+    {
+      "id": 21,
+      "name": "Bún thịt nướng",
+      "description": "A Vietnamese dish made with grilled marinated pork, rice noodles, fresh herbs, and pickled vegetables, served with a fish sauce-based dipping sauce.",
+      "category": "Noodle"
+    },
+    {
+      "id": 22,
+      "name": "Cháo",
+      "description": "A Vietnamese rice porridge typically cooked with water or broth and flavored with various ingredients such as chicken, fish, or pork, served with fresh herbs and condiments.",
+      "category": "Porridge"
+    },
+    {
+      "id": 23,
+      "name": "Bánh bèo",
+      "description": "Small, steamed rice cakes topped with dried shrimp, fried shallots, and scallions, served with a fish sauce-based dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 24,
+      "name": "Gà nướng sả",
+      "description": "Grilled chicken marinated in a lemongrass-infused mixture, served with a side of rice, fresh herbs, and a dipping sauce.",
+      "category": "Main"
+    },
+    {
+      "id": 25,
+      "name": "Bánh ít",
+      "description": "Steamed glutinous rice dumplings filled with sweet or savory ingredients, such as mung bean paste or a mixture of pork and shrimp, wrapped in banana leaves.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 26,
+      "name": "Bún ốc",
+      "description": "A snail-based soup featuring rice noodles, tomatoes, and various herbs, served with a flavorful broth.",
+      "category": "Soup"
+    },
+    {
+      "id": 27,
+      "name": "Bánh mì xíu mại",
+      "description": "A Vietnamese breakfast dish consisting of a baguette served with xíu mại (pork meatballs) cooked in a tomato-based sauce.",
+      "category": "Breakfast"
+    },
+    {
+      "id": 28,
+      "name": "Cơm cháy",
+      "description": "Crispy rice crackers often served as a snack or used as a garnish in various dishes, sometimes flavored with ingredients like garlic or chili.",
+      "category": "Snack"
+    },
+    {
+      "id": 29,
+      "name": "Bánh dầy",
+      "description": "A round, thick Vietnamese rice cake made from glutinous rice, often enjoyed as a snack or used as an ingredient in other dishes.",
+      "category": "Snack"
+    },
+    {
+      "id": 30,
+      "name": "Bánh tẻ",
+      "description": "Steamed glutinous rice cakes filled with mung bean paste and pork, wrapped in banana leaves, typically enjoyed during special occasions or as a snack.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 31,
+      "name": "Bánh chưng",
+      "description": "A traditional Vietnamese rice cake made from glutinous rice, mung bean, and pork, wrapped in banana leaves and steamed for several hours, typically prepared for Tết (Vietnamese New Year).",
+      "category": "Rice Cake"
+    },
+    {
+      "id": 32,
+      "name": "Bánh hỏi",
+      "description": "Thin rice vermicelli woven into intricate bundles, typically served with grilled meat, fresh herbs, and a dipping sauce.",
+      "category": "Noodle"
+    },
+    {
+      "id": 33,
+      "name": "Bánh tôm",
+      "description": "A Vietnamese shrimp fritter made from sweet potato, shrimp, and rice flour, deep-fried until crispy and golden, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 34,
+      "name": "Cơm cá",
+      "description": "A dish made from rice cooked with fish, often seasoned with turmeric, dill, and other spices, served with fresh herbs and a dipping sauce.",
+      "category": "Rice"
+    },
+    {
+      "id": 35,
+      "name": "Nộm",
+      "description": "A Vietnamese salad made from shredded vegetables, such as green papaya, carrot, or cabbage, mixed with herbs, crushed peanuts, and a tangy dressing made from fish sauce, lime, and sugar.",
+      "category": "Salad"
+    },
+    {
+      "id": 36,
+      "name": "Bánh bột lọc",
+      "description": "A transparent Vietnamese dumpling made from tapioca flour, filled with shrimp and pork, and wrapped in banana leaves, typically served with a fish sauce-based dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 37,
+      "name": "Bánh phồng tôm",
+      "description": "Vietnamese shrimp chips made from tapioca flour and shrimp, deep-fried until puffed and crispy, often served as a snack or a side dish.",
+      "category": "Snack"
+    },
+    {
+      "id": 38,
+      "name": "Bánh khoai mì",
+      "description": "A Vietnamese dessert made from grated cassava, sugar, and coconut milk, baked until golden and slightly chewy, often served warm.",
+      "category": "Dessert"
+    },
+    {
+      "id": 39,
+      "name": "Chè",
+      "description": "A variety of Vietnamese sweet soups or puddings, often made with ingredients such as beans, tapioca, fruit, and coconut milk, served hot or cold.",
+      "category": "Dessert"
+    },
+    {
+      "id": 40,
+      "name": "Bánh da lợn",
+      "description": "A Vietnamese steamed layer cake made from tapioca flour, rice flour, coconut milk, and sugar, often flavored with pandan or mung bean, served as a dessert or snack.",
+      "category": "Dessert"
+    },
+
+    {
+      "id": 41,
+      "name": "Bánh cáy",
+      "description": "A deep-fried Vietnamese rice cake, crispy on the outside and chewy on the inside, typically filled with mung bean paste, coconut, or sesame seeds.",
+      "category": "Dessert"
+    },
+    {
+      "id": 42,
+      "name": "Bánh tráng nướng",
+      "description": "A Vietnamese street food made by grilling rice paper with various toppings, such as egg, minced pork, shrimp, and scallions, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 43,
+      "name": "Bánh dừa",
+      "description": "A traditional Vietnamese coconut cake made from rice flour, sugar, and grated coconut, steamed in a mold and served as a dessert or snack.",
+      "category": "Dessert"
+    },
+    {
+      "id": 44,
+      "name": "Cá kho",
+      "description": "A Vietnamese dish made from fish braised in a savory caramelized sauce, often prepared with catfish or snakehead fish, served with steamed rice and fresh herbs.",
+      "category": "Main"
+    },
+    {
+      "id": 45,
+      "name": "Bánh bao",
+      "description": "A Vietnamese steamed bun made from wheat flour, filled with a mixture of ground pork, onions, mushrooms, and quail eggs, served as a snack or light meal.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 46,
+      "name": "Bánh tét",
+      "description": "A traditional Vietnamese rice cake made from glutinous rice, mung bean, and pork or banana, wrapped in banana leaves and steamed, typically enjoyed during Tết (Vietnamese New Year).",
+      "category": "Rice Cake"
+    },
+    {
+      "id": 47,
+      "name": "Chả lụa",
+      "description": "A Vietnamese pork sausage made from ground pork, fish sauce, and various spices, wrapped in banana leaves and steamed or boiled, often served in slices as a snack or used as an ingredient in other dishes.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 48,
+      "name": "Bánh đúc",
+      "description": "A Vietnamese steamed rice cake made from non-glutinous rice flour, typically flavored with pandan or coconut milk, served as a snack or dessert.",
+      "category": "Dessert"
+    },
+    {
+      "id": 49,
+      "name": "Bánh rán",
+      "description": "A Vietnamese deep-fried glutinous rice ball, filled with sweet mung bean paste or savory ingredients, coated in sesame seeds and served as a dessert or snack.",
+      "category": "Dessert"
+    },
+    {
+      "id": 50,
+      "name": "Bánh tráng cuốn",
+      "description": "A Vietnamese dish made from rice paper rolls filled with various ingredients, such as grilled meat, vegetables, herbs, and vermicelli noodles, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+
+    {
+      "id": 51,
+      "name": "Bánh phu thê",
+      "description": "A Vietnamese dessert also known as 'husband and wife cake,' made from glutinous rice flour and filled with mung bean paste, often served at weddings and other special occasions.",
+      "category": "Dessert"
+    },
+    {
+      "id": 52,
+      "name": "Bánh trôi",
+      "description": "A Vietnamese dessert made from glutinous rice flour dumplings filled with mung bean paste or sesame seeds, served in a warm ginger-infused syrup.",
+      "category": "Dessert"
+    },
+    {
+      "id": 53,
+      "name": "Bánh xèo",
+      "description": "A Vietnamese savory pancake made from rice flour, turmeric, and coconut milk, filled with ingredients such as pork, shrimp, bean sprouts, and herbs, served with a dipping sauce.",
+      "category": "Main"
+    },
+    {
+      "id": 54,
+      "name": "Canh chua",
+      "description": "A Vietnamese sour soup made from tamarind, tomatoes, and various vegetables, often prepared with fish, shrimp, or pork, served with steamed rice.",
+      "category": "Soup"
+    },
+    {
+      "id": 55,
+      "name": "Bánh mì ốp la",
+      "description": "A popular Vietnamese breakfast dish consisting of a baguette served with fried eggs, pâté, pickled vegetables, and various condiments.",
+      "category": "Breakfast"
+    },
+    {
+      "id": 56,
+      "name": "Cá nục kho mía",
+      "description": "A Vietnamese dish made from mackerel simmered in a caramelized sugar cane sauce, often served with steamed rice and fresh herbs.",
+      "category": "Main"
+    },
+    {
+      "id": 57,
+      "name": "Cá kho tộ",
+      "description": "A Vietnamese braised fish dish, often prepared with catfish or snakehead fish, cooked in a clay pot with a caramelized sauce, served with steamed rice.",
+      "category": "Main"
+    },
+    {
+      "id": 58,
+      "name": "Gỏi cuốn",
+      "description": "A Vietnamese fresh spring roll made from rice paper filled with shrimp, pork, vermicelli noodles, fresh herbs, and vegetables, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 59,
+      "name": "Bánh gối",
+      "description": "A Vietnamese deep-fried pastry, similar to a samosa or empanada, filled with ingredients such as minced pork, mushrooms, vermicelli noodles, and vegetables, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 60,
+      "name": "Cơm tấm",
+      "description": "A Vietnamese dish made from broken rice, often served with grilled pork, egg, pickled vegetables, and a fish sauce-based dipping sauce.",
+      "category": "Rice"
+    },
+    {
+      "id": 61,
+      "name": "Bánh cống",
+      "description": "A Vietnamese deep-fried cake made from rice flour, mung bean, and shrimp, typically served with fresh herbs, pickled vegetables, and a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 62,
+      "name": "Bánh cuốn",
+      "description": "A Vietnamese steamed rice roll made from a thin, wide sheet of rice batter, filled with ground pork, wood ear mushrooms, and shallots, served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 63,
+      "name": "Bánh phồng",
+      "description": "A Vietnamese rice puff made from rice flour, deep-fried until crispy and airy, often served as a snack or used as a garnish in various dishes.",
+      "category": "Snack"
+    },
+    {
+      "id": 64,
+      "name": "Bánh mì chảo",
+      "description": "A Vietnamese breakfast dish consisting of a baguette served with various ingredients cooked in a pan, such as eggs, pâté, and sausage, accompanied by pickled vegetables and condiments.",
+      "category": "Breakfast"
+    },
+    {
+      "id": 65,
+      "name": "Cơm hến",
+      "description": "A Vietnamese rice dish made with tiny clams, served with various toppings such as crispy pork skin, fried shallots, and peanuts, accompanied by fresh herbs and a dipping sauce.",
+      "category": "Rice"
+    },
+    {
+      "id": 66,
+      "name": "Bánh khúc",
+      "description": "A traditional Vietnamese rice dumpling made from glutinous rice flour, filled with mung bean paste and ground pork, often enjoyed as a snack or used as an ingredient in other dishes.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 67,
+      "name": "Bánh cam",
+      "description": "A Vietnamese deep-fried sesame ball made from glutinous rice flour, filled with sweet mung bean paste or other fillings, coated in sesame seeds and served as a dessert or snack.",
+      "category": "Dessert"
+    },
+    {
+      "id": 68,
+      "name": "Canh khoai mỡ",
+      "description": "A Vietnamese soup made from taro stems, often cooked with shrimp or pork, served with steamed rice and fresh herbs.",
+      "category": "Soup"
+    },
+    {
+      "id": 69,
+      "name": "Bánh đa",
+      "description": "A Vietnamese red rice noodle, often used in soups and noodle dishes, made from rice flour and red annatto seed oil.",
+      "category": "Noodle"
+    },
+    {
+      "id": 70,
+      "name": "Bánh mì hấp",
+      "description": "A Vietnamese steamed bread roll made from wheat flour, often filled with sweet or savory ingredients, served as a snack or light meal.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 71,
+      "name": "Bánh bột chiên",
+      "description": "A Vietnamese pan-fried rice cake made from rice flour, often served with eggs, scallions, and a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 72,
+      "name": "Gỏi gà",
+      "description": "A Vietnamese chicken salad made from shredded cabbage or green papaya, shredded chicken, herbs, crushed peanuts, and a tangy dressing made from fish sauce, lime, and sugar.",
+      "category": "Salad"
+    },
+    {
+      "id": 73,
+      "name": "Bánh canh",
+      "description": "A Vietnamese thick noodle soup made from tapioca or rice flour, often prepared with ingredients such as pork, crab, shrimp, or fish cake, served with fresh herbs.",
+      "category": "Soup"
+    },
+    {
+      "id": 74,
+      "name": "Bánh ít",
+      "description": "A Vietnamese steamed glutinous rice dumpling, filled with sweet or savory ingredients such as mung bean paste or ground pork, often wrapped in banana or bamboo leaves.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 75,
+      "name": "Chả cá",
+      "description": "A Vietnamese grilled fish dish, often prepared with turmeric-marinated fish, served with vermicelli noodles, fresh herbs, and a dipping sauce.",
+      "category": "Main"
+    },
+    {
+      "id": 76,
+      "name": "Mì quảng",
+      "description": "A Vietnamese noodle dish made from wide rice noodles, served with ingredients such as shrimp, pork, quail eggs, and fresh herbs, topped with a turmeric-infused broth.",
+      "category": "Noodle"
+    },
+    {
+      "id": 77,
+      "name": "Bánh mì xíu mại",
+      "description": "A Vietnamese dish consisting of a baguette served with xíu mại, a Vietnamese meatball made from ground pork, onions, and various spices, accompanied by a tomato-based dipping sauce.",
+      "category": "Sandwich"
+    },
+    {
+      "id": 78,
+      "name": "Rau muống xào",
+      "description": "A Vietnamese stir-fried water spinach dish, often prepared with garlic, fish sauce, and oyster sauce, served as a side dish or with steamed rice.",
+      "category": "Side"
+    },
+    {
+      "id": 79,
+      "name": "Bánh mì chay",
+      "description": "A Vietnamese vegetarian sandwich made with a baguette, filled with ingredients such as tofu, seitan, pickled vegetables, fresh herbs, and various condiments.",
+      "category": "Sandwich"
+    },
+    {
+      "id": 80,
+      "name": "Bún riêu",
+      "description": "A Vietnamese rice noodle soup made with a tomato-based broth, crab meat, fried tofu, and various vegetables, served with fresh herbs and a side of shrimp paste.",
+      "category": "Soup"
+    },
+    {
+      "id": 81,
+      "name": "Cháo lòng",
+      "description": "A Vietnamese rice porridge made with offal, typically including pork liver, heart, and intestines, often served with fresh herbs and dipping sauces.",
+      "category": "Porridge"
+    },
+    {
+      "id": 82,
+      "name": "Bánh bột lọc",
+      "description": "A Vietnamese dumpling made from tapioca flour, filled with shrimp and pork, often served with a dipping sauce and topped with fried shallots.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 83,
+      "name": "Bánh hỏi",
+      "description": "A Vietnamese dish made from fine rice vermicelli woven into delicate sheets, often served with grilled meat, fresh herbs, and a dipping sauce.",
+      "category": "Noodle"
+    },
+    {
+      "id": 84,
+      "name": "Bánh khoái",
+      "description": "A Vietnamese savory pancake similar to bánh xèo, made from rice flour, turmeric, and coconut milk, filled with ingredients such as pork, shrimp, and bean sprouts, served with a dipping sauce.",
+      "category": "Main"
+    },
+    {
+      "id": 85,
+      "name": "Bún thịt nướng",
+      "description": "A Vietnamese noodle dish made from rice vermicelli, served with grilled marinated pork, fresh herbs, vegetables, and a dipping sauce.",
+      "category": "Noodle"
+    },
+    {
+      "id": 86,
+      "name": "Cháo gà",
+      "description": "A Vietnamese chicken rice porridge, made with rice, chicken, and various seasonings, often served with fresh herbs and dipping sauces.",
+      "category": "Porridge"
+    },
+    {
+      "id": 87,
+      "name": "Bánh hè",
+      "description": "A Vietnamese dessert made from glutinous rice flour, filled with sweet mung bean paste, and flavored with pandan, steamed and served as a snack or dessert.",
+      "category": "Dessert"
+    },
+    {
+      "id": 88,
+      "name": "Bún bò Huế",
+      "description": "A Vietnamese spicy beef noodle soup originating from Huế, made with lemongrass-infused beef broth, round rice noodles, and various toppings such as beef, pork, and fresh herbs.",
+      "category": "Soup"
+    },
+    {
+      "id": 89,
+      "name": "Bánh chưng",
+      "description": "A Vietnamese traditional rice cake made from glutinous rice, mung bean, and pork, wrapped in square-shaped banana leaves and steamed, typically enjoyed during Tết (Vietnamese New Year).",
+      "category": "Rice Cake"
+    },
+    {
+      "id": 90,
+      "name": "Bánh lọt",
+      "description": "A Vietnamese dessert made from pandan-flavored tapioca flour, formed into small worm-like shapes and served in a sweet coconut milk sauce, often garnished with crushed ice and mung bean paste.",
+      "category": "Dessert"
+    },
+    {
+      "id": 91,
+      "name": "Bánh tẻ",
+      "description": "A Vietnamese steamed rice cake made from glutinous rice flour and filled with mung bean paste or ground pork, wrapped in banana leaves and often enjoyed as a snack or appetizer.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 92,
+      "name": "Bánh rán",
+      "description": "A Vietnamese deep-fried glutinous rice ball, filled with sweet mung bean paste or savory ingredients, often coated with sesame seeds and served as a snack or dessert.",
+      "category": "Dessert"
+    },
+    {
+      "id": 93,
+      "name": "Nem chua",
+      "description": "A Vietnamese fermented pork roll, made from raw ground pork, garlic, fish sauce, sugar, and various spices, often served as an appetizer or snack.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 94,
+      "name": "Bánh bao",
+      "description": "A Vietnamese steamed bun made from wheat flour, filled with sweet or savory ingredients such as barbecue pork, mung bean paste, or ground pork, served as a snack or light meal.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 95,
+      "name": "Bánh tét",
+      "description": "A Vietnamese cylindrical glutinous rice cake, filled with mung bean paste and pork, wrapped in banana leaves and steamed, traditionally enjoyed during Tết (Vietnamese New Year).",
+      "category": "Rice Cake"
+    },
+    {
+      "id": 96,
+      "name": "Bún măng vịt",
+      "description": "A Vietnamese rice noodle soup made with bamboo shoots and duck, served with fresh herbs and a side of dipping sauce.",
+      "category": "Soup"
+    },
+    {
+      "id": 97,
+      "name": "Cà tím nướng mỡ hành",
+      "description": "A Vietnamese grilled eggplant dish, topped with scallion oil and served with a dipping sauce, often enjoyed as a side dish or with steamed rice.",
+      "category": "Side"
+    },
+    {
+      "id": 98,
+      "name": "Bánh ít trần",
+      "description": "A Vietnamese savory dumpling made from glutinous rice flour, filled with ground pork, mung beans, and various spices, often served with a dipping sauce.",
+      "category": "Appetizer"
+    },
+    {
+      "id": 99,
+      "name": "Bún ốc",
+      "description": "A Vietnamese rice noodle soup made with freshwater snails, tomatoes, and various herbs, served with a side of dipping sauce.",
+      "category": "Soup"
+    },
+    {
+      "id": 100,
+      "name": "Nộm hoa chuối",
+      "description": "A Vietnamese banana blossom salad, made from thinly sliced banana blossoms, shredded chicken, herbs, and a tangy dressing made from fish sauce, lime, and sugar.",
+      "category": "Salad"
+    },
+    {
+      "id": 101,
+      "name": "Nước mía",
+      "description": "A Vietnamese drink made from freshly pressed sugarcane juice, often served with ice and a touch of lime or ginger.",
+      "category": "Drink"
+    },
+    {
+      "id": 102,
+      "name": "Chè đậu xanh",
+      "description": "A Vietnamese sweet mung bean dessert soup, often served with coconut milk and crushed ice, enjoyed as a cooling drink or dessert.",
+      "category": "Drink"
+    },
+    {
+      "id": 103,
+      "name": "Sữa đậu nành",
+      "description": "A Vietnamese soy milk drink, made from soybeans and water, often sweetened with sugar and flavored with pandan or vanilla.",
+      "category": "Drink"
+    },
+    {
+      "id": 104,
+      "name": "Cà phê sữa đá",
+      "description": "A Vietnamese iced coffee made from strong brewed coffee, sweetened condensed milk, and ice, enjoyed as a refreshing and energizing drink.",
+      "category": "Drink"
+    },
+    {
+      "id": 105,
+      "name": "Trà đào",
+      "description": "A Vietnamese peach tea, made from black or green tea infused with peach flavor, often served iced with fresh peach slices.",
+      "category": "Drink"
+    },
+    {
+      "id": 106,
+      "name": "Sinh tố",
+      "description": "A Vietnamese fruit smoothie, made from a blend of fresh fruit, crushed ice, and sweetened condensed milk or sugar, enjoyed as a refreshing drink or dessert.",
+      "category": "Drink"
+    },
+    {
+      "id": 107,
+      "name": "Nước sâm",
+      "description": "A Vietnamese herbal drink made from various herbs and roots, often served chilled with ice and sweetened to taste.",
+      "category": "Drink"
+    },
+    {
+      "id": 108,
+      "name": "Bia hơi",
+      "description": "A Vietnamese draft beer, traditionally brewed daily and served fresh in local establishments, enjoyed for its light and refreshing taste.",
+      "category": "Drink"
+    },
+    {
+      "id": 109,
+      "name": "Nước chấm",
+      "description": "A Vietnamese dipping sauce made from fish sauce, lime juice, sugar, garlic, and chili, often served as a condiment or drink base for various dishes.",
+      "category": "Drink"
+    },
+    {
+      "id": 110,
+      "name": "Chè ba màu",
+      "description": "A Vietnamese three-color dessert drink made from layers of mung bean paste, red azuki beans, and green pandan jelly, topped with crushed ice and coconut milk.",
+      "category": "Drink"
+    },
+    {
+      "id": 111,
+      "name": "Nước rau má",
+      "description": "A Vietnamese pennywort juice made from fresh pennywort leaves, often sweetened with sugar and served chilled as a refreshing and healthy drink.",
+      "category": "Drink"
+    },
+    {
+      "id": 112,
+      "name": "Chè thái",
+      "description": "A Vietnamese dessert drink inspired by Thai cuisine, made from a mix of fruits, jelly, tapioca pearls, and sweet syrup, topped with coconut milk and crushed ice.",
+      "category": "Drink"
+    },
+    {
+      "id": 113,
+      "name": "Cà phê trứng",
+      "description": "A Vietnamese egg coffee made from strong brewed coffee topped with a creamy mixture of egg yolk, sweetened condensed milk, and sugar, served hot or cold.",
+      "category": "Drink"
+    },
+    {
+      "id": 114,
+      "name": "Nước mát",
+      "description": "A Vietnamese refreshing drink made from various herbs, seeds, and fruits such as chia seeds, basil seeds, and dried longan, often sweetened with sugar and served with ice.",
+      "category": "Drink"
+    },
+    {
+      "id": 115,
+      "name": "Rượu nếp",
+      "description": "A Vietnamese fermented sticky rice wine, made from glutinous rice and yeast, enjoyed as a traditional alcoholic drink.",
+      "category": "Drink"
+    },
+    {
+      "id": 116,
+      "name": "Trà sữa trân châu",
+      "description": "A Vietnamese bubble tea, made from brewed tea mixed with milk or fruit flavors, sweetened with sugar, and served with chewy tapioca pearls.",
+      "category": "Drink"
+    },
+    {
+      "id": 117,
+      "name": "Soda xí muội",
+      "description": "A Vietnamese salted plum soda, made from club soda mixed with preserved salted plums, sugar, and ice, enjoyed as a sweet and tangy drink.",
+      "category": "Drink"
+    },
+    {
+      "id": 118,
+      "name": "Nước dừa",
+      "description": "A Vietnamese coconut water drink, served fresh from a young green coconut, often enjoyed as a natural, refreshing, and hydrating beverage.",
+      "category": "Drink"
+    },
+    {
+      "id": 119,
+      "name": "Chè chuối",
+      "description": "A Vietnamese banana dessert soup, made from bananas cooked in coconut milk, sugar, and tapioca pearls, often served warm or chilled as a dessert drink.",
+      "category": "Drink"
+    },
+    {
+      "id": 120,
+      "name": "Trà chanh",
+      "description": "A Vietnamese lemon tea, made from black or green tea infused with fresh lemon juice, often served hot or iced, and sweetened with sugar or honey.",
+      "category": "Drink"
+    }
+  ]
+}
